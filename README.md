@@ -1,5 +1,8 @@
 # Huddle-landing-page-with-alternating-feature-blocks
 
+Live URL https://vikram-singh51.github.io/Huddle-landing-page-with-alternating-feature-blocks/
+
+
 Tech:- HTML, CSS, CSS-Flexbox
 Understanding of webage layout usign flexbox, 
 

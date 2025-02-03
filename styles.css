@@ -1,0 +1,236 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      overflow-x: hidden;
+}
+body{
+      font-family: "Poppins", sans-serif;
+}
+#container{
+      background-image: url(/images/bg-hero-desktop.svg);
+      margin-bottom: 15vw;
+}
+nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 3vw 5vw;
+}
+nav img{
+      width: 15.5vw;
+      height: 2.6vw;
+      vertical-align: middle;
+
+}
+nav button{
+      padding: 1.3vw 4.5vw;
+      border: none;
+      border-radius: 2rem;
+      color: black;
+      background-color: white;
+      box-shadow: 0 8px 16px 0 #d0dce1;
+      font-size: 1rem;
+      font-weight: 600;
+}
+main{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      padding: 3rem 5rem;
+      justify-content: center;
+}
+@media (max-width: 930px){
+      nav img{
+            width: 30vw;
+            height: 6vw;
+            vertical-align: middle;
+      }
+      main{
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+      }
+      .left_box, .right_box{
+            margin-top: 3vw;
+            width: 100%;
+            padding: 0;
+      }
+}
+.left_box{
+      /* width: 50%; */
+      height: 100%;
+     padding: 12px;
+}
+.left_box h2{
+      font-size: 2.6rem;
+      font-weight: 600;
+     
+}
+.left_box p{
+ font-size: 1.3rem;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+
+}
+.right_box img{
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+}
+.right_box{
+      /* width: 50%; */
+      background-image: contain;
+      pad: 12px;
+}
+.left_box button{
+      padding: 1.3vw 4.5vw;
+      border: none;
+      border-radius: 2rem;
+      color: white;
+      background-color: hsl(322, 100%, 66%);
+      font-size: 1rem;
+      font-weight: 600;
+}
+
+/* ============Container box ======================== */
+.box{
+      display: flex;
+      margin-left: 4vw;
+      margin-right: 4vw;
+      box-shadow: 0 8px 16px 0 #c0cacf;
+      border-radius: 1.5rem;
+      margin-bottom: 6.5vh;
+      padding: 3rem;
+}
+.left_box_container{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      flex-direction: column;
+}
+
+.left_box_container h2{
+     font-size: 1.75rem;
+     margin-bottom: 0.8rem
+}
+.left_box_container p{
+      color: #b0b9c0;
+}
+.right_box_container{
+     width: 50%;
+}
+.right_box_container img{
+      width: 100%;
+      height: auto; 
+}
+@media (max-width: 768px){
+        .box{
+            display: flex;
+            flex-direction: column;
+        }
+        .left_box_container{
+            margin-bottom: 2vw;
+            width: 100% !important;
+        }
+        .right_box_container{
+            width: 100%;
+        }
+}
+
+/* ======================= Footer ==================== */
+footer{
+      margin-top: 4rem;
+      /* padding: 2rem; */
+      /* margin-bottom: 2rem; */
+      position: relative;
+}
+.commomunity_box{
+      width:fit-content ;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      box-shadow: 8px 8px 40px 0 #c0cacf;
+      padding: 5vw 10vw;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+}
+.commomunity_box h2{
+     font-size: calc(1.2rem + .9vw);
+     margin-bottom: 0.5rem;
+     font-weight: 600;
+}
+.commomunity_box button{
+      background-color:  hsl(322, 100%, 66%);
+      color: white;
+      padding: 2vw 3vw;
+      border: none;
+      border-radius: 2rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+}
+
+/* ======== footer Lower mid part */
+footer{
+      background-color: black;
+      color: white;
+      padding: 10vw 1vw 2vw 1vw; 
+}
+.image_logo{
+      color: white;
+      width: max-content;
+      background-color: white;
+}
+.footer_1{
+      display: flex;
+      justify-content: space-around;
+}
+.footer_1_left p{
+  margin: 1rem;
+  width: max-content;
+}
+.footer_1_middle{
+      display: flex;
+      gap: 2.5vw;
+      
+}
+.footer_1_middle li a{
+      text-decoration: none;
+      color: white; 
+}
+.footer_1_right i{
+      font-size: 2.5rem;
+      cursor: pointer;
+}
+.attribution a{
+   text-decoration: none;
+   color: skyblue;
+   cursor: pointer;
+}
+
+@media (max-width: 768px){
+      .image_logo{
+         margin: 1rem;
+      }
+      .footer_1{
+            display: flex;
+            flex-direction: column;
+      }
+      .footer_1_middle{
+            display: flex;
+            flex-direction: column;
+            margin: 1rem;
+      }
+      .footer_1_right{
+            margin: 1rem;
+      }
+    
+}
+
+.footer_2{
+   text-align: right;
+}
